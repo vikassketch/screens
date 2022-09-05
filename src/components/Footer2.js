@@ -3,8 +3,9 @@ import icon from '../images/Icon.svg'
 
 const Footer2 = () => {
   return (
+    <div className='footer2top'>
     <div className='footer2'>
-        <div className='top'>
+        
 <div className='inner'>
 <p className='menu'>Main Menu</p>
 <ul className='list'>
@@ -33,17 +34,21 @@ const Footer2 = () => {
 </ul>
 </div>
 <div className='inner'>
-    
-<img className='menu icon2' src={icon}/>
+    <div className='menu '>
+    <img className='icon2' src={icon}/>
+    <p className='footerLogo'>ELECTRUM</p>
+    </div>
+
 
 <ul className='list'>
-    <li className='footerLogo'>ELECTRUM</li>
+    
     <li>888-515-0326</li>
     <li>hello@electrum.co</li>
     <button className='btn1'>Get Started</button>
 </ul>
 </div>
         </div>
+    
     </div>
   )
 }

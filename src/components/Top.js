@@ -22,17 +22,7 @@ const Top = () => {
   return (
     <>
     <div className='topper'>
-    <div className='side'>
-        <div className='sidebar'> 
-        <ul className='sidenav'>
-        <li><button className='btn4'>Get Started</button></li>
-        <li><a href='#'>Utilities</a></li>
-        <li><a href='#'>Installers</a></li>
-        <li><a href='#'>Sign In</a></li>
-        <div className='ligroup'><li><img src={phn} alt="hi"/></li><li className='phn'>888-454-9979</li></div>
-       </ul>
-        </div>
-      </div>
+    
       <div className='innertopper'>
         <div className='toptext'>
             <div className='innertext'> <span className='inner2text'> Customer</span><br className='break'/>
@@ -47,8 +37,19 @@ View our vast portfolio of solar PV projects. Electrum customers have shared the
         <img src={family} className='topimg' alt="hi"/>
         
     </div>
+    <div className='side'>
+        <div className='sidebar'> 
+        <ul className='sidenav'>
+        <li><button className='btn4'>Get Started</button></li>
+        <li><a href='#'>Utilities</a></li>
+        <li><a href='#'>Installers</a></li>
+        <li><a href='#'>Sign In</a></li>
+        <div className='ligroup'><li><img src={phn} alt="hi"/></li><li className='phn'>888-454-9979</li></div>
+       </ul>
+        </div>
+      </div>
     </div>
-    <div className='outersection'>
+    <div className='outersection1'>
     <div className='section'>
     <p style={{textAlign:'center',fontWeight: '700',
 fontSize: '40px'}}>Success <span style={{fontWeight:'normal'}}>Stories</span> </p><br/>

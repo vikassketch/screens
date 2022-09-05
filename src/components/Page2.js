@@ -5,11 +5,12 @@ import Search from './Search'
 import Footer1 from './Footer1'
 import Footer2 from './Footer2'
 import Footer3 from './Footer3'
+import Testing from './Testing'
 
 const Page2 = () => {
   return (
     <><Header/>
-    <Section/>
+    <Testing/>
     <Search/>
     <Footer1/>
     <Footer2/>

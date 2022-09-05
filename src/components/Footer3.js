@@ -3,6 +3,7 @@ import React from 'react'
 
 const Footer3 = () => {
   return (
+    <div className='footer3top'>
     <div className='footer3'>
        <div><p>Available States</p></div>
        <div><ul>
@@ -28,7 +29,7 @@ const Footer3 = () => {
         <li>Washington</li>
         
         </ul></div>
-        <hr/>
+        <hr className='lasthorizontal'/>
         <div className='last'>
             <ul>
                 <li>English(US)</li>
@@ -36,6 +37,7 @@ const Footer3 = () => {
                 <li>Terms,Conditions, and Privacy Policy</li>
             </ul>
         </div>
+    </div>
     </div>
   )
 }
